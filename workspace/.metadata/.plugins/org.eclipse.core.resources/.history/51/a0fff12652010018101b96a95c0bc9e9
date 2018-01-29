@@ -1,6 +1,0 @@
-spring.jpa.database=mysql
-spring.datasource.url=jdbc:mysql://localhost/algamoneyapi?createDatabaseIfNotExists=true&userSSL=false
-spring.datasource.username=root
-spring.datasource.password=10nmnoga
-
-spring.jpa.show-sql=true
