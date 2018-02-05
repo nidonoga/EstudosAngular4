@@ -4,7 +4,7 @@ CREATE TABLE pessoa (
 	ativo BOOLEAN,
 	logradouro VARCHAR(50) NOT NULL,
 	numero VARCHAR(50) NOT NULL,
-	complemento VARCHAR(50) NOT NULL,
+	complemento VARCHAR(50),
 	bairro VARCHAR(50) NOT NULL,
 	cep VARCHAR(50) NOT NULL,
 	cidade VARCHAR(50) NOT NULL,
