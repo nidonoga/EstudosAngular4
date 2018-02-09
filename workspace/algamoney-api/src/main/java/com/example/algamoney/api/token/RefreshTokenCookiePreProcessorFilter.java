@@ -52,6 +52,8 @@ public class RefreshTokenCookiePreProcessorFilter implements Filter {
 		
 	}
 	
+	
+	// sobrescrever a requisicao para incluir o refresh token no parameter map
 	static class MyServletRequestWrapper extends HttpServletRequestWrapper {
 		
 		private String refreshToken;
